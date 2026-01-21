@@ -1,0 +1,32 @@
+
+.themes{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 8px 4px;
+    border-radius: 8px;
+    gap: 5px;
+    /* background-color: rgb(0, 89, 255); */
+}
+
+.light, .dark, .blue, .green{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.light{
+    background-color: white;
+}
+
+.dark{
+    background-color: black;
+}
+
+.blue{
+    background-color: rgb(76, 76, 225);
+}
+
+.green{
+    background-color: rgb(76, 225, 79);
+}
